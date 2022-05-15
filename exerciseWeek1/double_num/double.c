@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main(int argc, char* argv[]) {
+	
 	FILE* in = stdin;
 
 	if (argc > 2) {
@@ -15,12 +16,12 @@ int main(int argc, char* argv[]) {
 			exit(EXIT_FAILURE);
 		}
 	}
+
 	char buffer[255];
 	while (fgets(buffer, 255, in)) {
 		printf("%d\n", 2*atoi(buffer));
 	}
 
-	/* Here: Read in with (e.g.) fgets(), ... */
 	if (in != stdin) {
 		fclose(in);
 	}

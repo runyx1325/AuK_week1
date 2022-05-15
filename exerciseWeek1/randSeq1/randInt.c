@@ -2,8 +2,10 @@
 #include <stdlib.h>
 
 int main(int argc, char* argv[]) {
+
+	//Output of random numbers
 	for (int i = 0; i < atoi(argv[1]); i++) {
-		int value = rand() % atoi(argv[2]);
+		int value = rand() % (atoi(argv[2]) + 1);
 		printf("%d\n", value);
 	}
 }
