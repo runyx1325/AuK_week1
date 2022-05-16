@@ -1,3 +1,9 @@
+/************************************************/
+/***File:            double.c                ***/
+/***Matrikelnummer : 4581869                  ***/
+/***Description:     Doubling List of numbers ***/
+/************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 

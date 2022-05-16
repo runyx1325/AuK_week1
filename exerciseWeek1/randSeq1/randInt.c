@@ -1,3 +1,9 @@
+/************************************************/
+/***File:            randInt.c                ***/
+/***Matrikelnummer : 4581869                  ***/
+/***Description:     Generates random numbers ***/
+/************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 
